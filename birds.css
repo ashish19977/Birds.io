@@ -7,8 +7,9 @@ html,body{
 }
 p{
     text-align: center;
-    font-size: large;
+    font-size: larger;
     font-weight: 600;
+    color:blue;
     font-family: cursive;
 }
 video{
