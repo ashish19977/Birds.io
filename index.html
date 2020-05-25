@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Birds</title>
+</head>
+<body>
+    <div class="container">
+    <div class="item" style="color:#28a4f8;" onclick="goToNexT('water')">
+            <i class="fa fa-tint" ></i>
+            <p>Water</p>
+        </div>
+        <div class="item" onclick="goToNexT('shelter')">
+            <i class="fa fa-bed"></i>
+            <p>Shelter</p>
+        </div>
+        <div class="item" style="color: #5aed43;" onclick="goToNexT('food')">
+            <i class="fa fa-leaf" ></i>
+            <p>Foods</p>
+        </div>
+        <div class="item" style="color:#7d3c98" onclick="goToNexT('care')">
+            <i class="fa fa-american-sign-language-interpreting" ></i>
+            <p>Care</p>
+        </div>
+        <div class="item" style="color: #fe1a44 " onclick="goToNexT('love')">
+            <i class="fa fa-heart" ></i>
+            <p>Love</p>
+        </div>
+        <div class="item" onclick="goToNexT('protection')">
+            <i class="fa fa-gavel"></i>
+            <p>Protection</p>
+        </div>
+        <div class="item" style="color:  #2f52ff ;" onclick="goToNexT('mobile')">
+            <i class="fa fa-wifi" ></i>
+            <p>Less Use of Mobiles</p>
+        </div>
+        <div class="item" style="color: #1dd61d  ;" onclick="goToNexT('forest')">
+            <i class="fa fa-tree" ></i>
+            <p>Forest</p>
+        </div>
+        <div class="item"  style="color: #ff322f ;" style="color: #ff322f ;" onclick="goToNexT('killing')">
+            <i class="fa fa-ban"></i>
+            <p>Bird Killings</p>
+        </div>
+        <div class="item" style="color: #e54c09 ;" onclick="goToNexT('bonding')">
+            <i class="fa fa-heartbeat" ></i>
+            <p>Bonding</p>
+        </div>
+        <div class="item" style="color:#ff23c3;" onclick="goToNexT('pollution')"> 
+            <i class="fa fa-thumbs-down" ></i>
+            <p>Pollution</p>
+        </div>
+        <div class="item" style="color:white;" onclick="goToNexT('collision')">
+            <i class="fa fa-plane"></i>
+            <p>Collision</p>
+        </div>
+    </div>  
+</body>
+<script type="application/javascript">
+    function goToNexT(loc){
+        console.log(window.location)
+        window.location.href=`/${loc}.io`
+    }
+</script>
+</html>
